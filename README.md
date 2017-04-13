@@ -15,7 +15,7 @@
     
 * 简化startActivity  </br>
 
-  public void startNewuActivity(Class<?> cla) {
+  public void startMyActivity(Class<?> cla) {
   
 		Intent intent = new Intent(this, cla);
 		startActivity(intent);
