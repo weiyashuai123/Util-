@@ -4,21 +4,23 @@
 * 简化Toast：</br>
 
 
-    public void shortToast(String message) {
+       public void shortToast(String message) {
   
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
-    }</br>
-    public void longToast(String message) {
+        }</br>
+        public void longToast(String message) {
 
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
-    }
+        }
     
 * 简化startActivity  </br>
 
 
-  public void startMyActivity(Class<?> cla) {
-  Intent intent = new Intent(this, cla);
+       public void startMyActivity(Class<?> cla) {
+                
+		Intent intent = new Intent(this, cla);
 		startActivity(intent);
 	}
+	
     
 #### 关于Android BaseActivity：
