@@ -4,12 +4,12 @@
 * 简化Toast：</br>
 
 
-    `public void shortToast(String message) {
+    public void shortToast(String message) {
   
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
-    }
+    }</br>
     public void longToast(String message) {
 
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
-    }`
+    }
     
