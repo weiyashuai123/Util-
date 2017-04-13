@@ -13,3 +13,13 @@
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
     
+* 简化startActivity  </br>
+
+  public void startNewuActivity(Class<?> cla) {
+  
+		Intent intent = new Intent(this, cla);
+		startActivity(intent);
+        
+	}
+    
+#### 关于Android BaseActivity：
