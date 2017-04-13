@@ -2,10 +2,10 @@
 #### 关于Android BaseActivity：
 * 在BaseActivity放置通用的简化方法，让所有Activity都继承自BaseActivity即可随时随地使用</br>
 * 简化Toast：
-
 `
-  public void shortToast(String message) {
 
+  public void shortToast(String message) {
+  
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
     public void longToast(String message) {
