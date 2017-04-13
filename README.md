@@ -13,10 +13,9 @@
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
         }
     
-* 简化startActivity  </br>
+* 简化startActivity：</br>
 
-
-        public void startMyActivity(Class<?> cla) {
+        public void startMyActivity(Class<?> cla) {
                 
 		Intent intent = new Intent(this, cla);
 		startActivity(intent);
