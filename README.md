@@ -19,7 +19,7 @@
                 
 		Intent intent = new Intent(this, cla);
 		startActivity(intent);
-	}
+	        }
 	
     
 #### 关于Android BaseActivity：
