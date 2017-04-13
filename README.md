@@ -15,11 +15,10 @@
     
 * 简化startActivity  </br>
 
+
   public void startMyActivity(Class<?> cla) {
-  
-		Intent intent = new Intent(this, cla);
+  Intent intent = new Intent(this, cla);
 		startActivity(intent);
-        
 	}
     
 #### 关于Android BaseActivity：
