@@ -1,7 +1,8 @@
 # Util-
 #### 关于Android BaseActivity：
 * 在BaseActivity放置通用的简化方法，让所有Activity都继承自BaseActivity即可随时随地使用</br>
-* 简化Toast：
+* 简化Toast：</br>
+
 `
 
   public void shortToast(String message) {
